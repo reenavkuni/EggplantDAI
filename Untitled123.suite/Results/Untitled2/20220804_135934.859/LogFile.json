@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Untitled2.script",
+      "timestamp" : "2022-08-04 13:59:34.861 -0600"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.090133\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-08-04 13:59:34 -0600\", Successes:\"0\", TestCase:\"Untitled2.script\", Warnings:\"0\")",
+      "timestamp" : "2022-08-04 13:59:34.953 -0600"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "STUnknownMessage: ERROR: No Such Function: 'abbyyversion' -- Execution Time 0:00:00 Untitled2.script",
+      "timestamp" : "2022-08-04 13:59:34.977 -0600"
+    }
+  ],
+  "createdTimestamp" : "2022-08-04 13:59:34.862 -0600"
+}

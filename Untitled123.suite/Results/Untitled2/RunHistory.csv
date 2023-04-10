@@ -1,0 +1,8 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2022-08-03 13:13:16.121 -0600,"Failure",0:00:00,1,0,0,"20220803_131316.121/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'rlmversion'",0
+2022-08-04 13:58:23.413 -0600,"Success",0:00:00,0,0,0,"20220804_135823.413/LogFile.txt","","",1
+2022-08-04 13:59:05.804 -0600,"Success",0:00:00,0,0,0,"20220804_135905.804/LogFile.txt","","",1
+2022-08-04 13:59:24.882 -0600,"Failure",0:00:00,1,0,0,"20220804_135924.882/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'abbyversion'",0
+2022-08-04 13:59:34.859 -0600,"Failure",0:00:00,1,0,0,"20220804_135934.859/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'abbyyversion'",0
+2022-08-04 13:59:55.315 -0600,"Failure",0:00:00,1,0,0,"20220804_135955.315/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'abbyy'",0
+2022-08-04 14:00:12.818 -0600,"Success",0:00:00,0,0,0,"20220804_140012.818/LogFile.txt","","",1

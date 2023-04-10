@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Untitled2.script",
+      "timestamp" : "2022-08-03 13:13:16.149 -0600"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.195184\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-08-03 13:13:16 -0600\", Successes:\"0\", TestCase:\"Untitled2.script\", Warnings:\"0\")",
+      "timestamp" : "2022-08-03 13:13:16.350 -0600"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "STUnknownMessage: ERROR: No Such Function: 'rlmversion' -- Execution Time 0:00:00 Untitled2.script",
+      "timestamp" : "2022-08-03 13:13:16.372 -0600"
+    }
+  ],
+  "createdTimestamp" : "2022-08-03 13:13:16.152 -0600"
+}

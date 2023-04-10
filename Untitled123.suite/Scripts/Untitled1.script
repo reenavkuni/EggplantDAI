@@ -1,0 +1,6 @@
+﻿params resourceP
+//log ResourcePath("agent_log.txt")
+
+log ResourcePath()
+
+log resourceP

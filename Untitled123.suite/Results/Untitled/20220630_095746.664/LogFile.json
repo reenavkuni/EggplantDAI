@@ -1,0 +1,36 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Untitled.script",
+      "timestamp" : "2022-06-30 09:57:46.667 -0600"
+    },
+    {
+      "handlerName" : "on_untitled1",
+      "message" : "\/Users\/reenkuni\/Documents\/Untitled123.suite\/Resources",
+      "timestamp" : "2022-06-30 09:57:48.284 -0600",
+      "identifier" : "Log",
+      "scriptName" : "Untitled1.script",
+      "handlerLine" : 4
+    },
+    {
+      "handlerName" : "on_untitled1",
+      "message" : "\/Users\/reenkuni\/Documents\/Untitled123.suite\/Resources",
+      "timestamp" : "2022-06-30 09:57:50.533 -0600",
+      "identifier" : "Log",
+      "scriptName" : "Untitled1.script",
+      "handlerLine" : 6
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"6.432795\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2022-06-30 09:57:46 -0600\", Successes:\"1\", TestCase:\"Untitled.script\", Warnings:\"0\")",
+      "timestamp" : "2022-06-30 09:57:53.102 -0600"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:06 Untitled.script",
+      "timestamp" : "2022-06-30 09:57:53.114 -0600"
+    }
+  ],
+  "createdTimestamp" : "2022-06-30 09:57:46.668 -0600"
+}

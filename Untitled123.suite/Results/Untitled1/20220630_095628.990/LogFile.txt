@@ -1,0 +1,5 @@
+﻿2022-06-30 09:56:28.992 -0600	START		Running Untitled1.script
+2022-06-30 09:56:29.205 -0600	Log		/Users/reenkuni/Documents/Untitled123.suite/Resources/agent_log.txt	1	on_untitled1	Untitled1.script
+2022-06-30 09:56:29.207 -0600	Log		/Users/reenkuni/Documents/Untitled123.suite/Resources	3	on_untitled1	Untitled1.script
+2022-06-30 09:56:29.213 -0600	EndTestCase		(Duration:"0.216365", Errors:"0", Exceptions:"0", StartTime:"2022-06-30 09:56:28 -0600", Successes:"1", TestCase:"Untitled1.script", Warnings:"0")
+2022-06-30 09:56:29.237 -0600	SUCCESS		Execution Time 0:00:00 Untitled1.script
