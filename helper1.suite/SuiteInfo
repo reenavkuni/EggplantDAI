@@ -1,0 +1,15 @@
+﻿{
+    EPVersionNumber = 202304051051;
+    Schedules =     (
+    );
+    ScriptMetaData =     {
+    };
+    SuiteEncodedTextKey = "f#>j8zF^U!-9Lj'G";
+    helpedSuitesInfo =     (
+                {
+            filePath = "EggplantDAI/Untitled123.suite";
+        }
+    );
+    helperSuitesInfo =     (
+    );
+}

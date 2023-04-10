@@ -1,0 +1,4 @@
+﻿2023-04-10 16:53:03.417 -0600	START		Running Untitled.script
+2023-04-10 16:53:03.496 -0600	Log		x	1	on_untitled	Untitled.script
+2023-04-10 16:53:03.503 -0600	EndTestCase		(Duration:"0.083801", Errors:"0", Exceptions:"0", StartTime:"2023-04-10 16:53:03 -0600", Successes:"1", TestCase:"Untitled.script", Warnings:"0")
+2023-04-10 16:53:03.519 -0600	SUCCESS		Execution Time 0:00:00 Untitled.script
