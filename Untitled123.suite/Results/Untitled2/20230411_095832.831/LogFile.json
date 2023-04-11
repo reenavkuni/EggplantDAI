@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled2.script",
+				"identifier": "START",
+				"timestamp": "2023-04-11 09:58:32.831 -0600"
+			},
+		{
+				"handlerName": "on_untitled2",
+				"timestamp": "2023-04-11 09:58:32.949 -0600",
+				"message": "windows git",
+				"scriptName": "Untitled2.script",
+				"handlerLine": 9,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.165\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-04-11 09:58:32 -0600\", Successes:\"1\", TestCase:\"Untitled2.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-04-11 09:58:32.996 -0600"
+			},
+		{
+				"message": "Execution Time 0:00:00 Untitled2.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2023-04-11 09:58:33.168 -0600"
+			}
+	],
+	"createdTimestamp": "2023-04-11 09:58:32.831 -0600"
+}

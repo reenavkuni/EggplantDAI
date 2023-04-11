@@ -4,3 +4,6 @@
 put eggplantversion().archive
 
 //put ABBYY()
+
+
+log "windows git"
