@@ -1,0 +1,14 @@
+﻿
+TC1_Greeting.generateGreeting "Dolly"
+//run "TC1_Greeting" "Mickey"
+//TransferTransaction.TransferMoney "Checking","Savings", 25, "Transfer"
+run "TC2_TransferFunds" "Savings", "Roth IRA", 176, "Transfer"
+run "TC3_Sum" 3
+put TC3_Sum(10, "Linux")
+
+run "TC4_DemographicData" "TableOfData.xlsx", "2"
+
+run "TC3_Sum" 3, "Windows"
+run "TC3_Sum" 9, "Macintosh"
+run "TC3_Sum" 1, "Linux"
+

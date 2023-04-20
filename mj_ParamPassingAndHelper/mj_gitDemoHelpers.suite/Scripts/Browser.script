@@ -1,0 +1,85 @@
+﻿//Added 26-March
+to handle QuitChrome
+	Repeat while ImageFound(imageName:"ChromeMinMaxCloseBtns", waitFor:3, SearchRectangle:TargetRectangle.ScreenPart("TopRightQuadrant"))
+		TypeText altKey, f4 -- Quit Chrome
+		wait 2
+	end repeat
+end QuitChrome
+
+to handle LaunchChrome mySite
+	TypeText WindowsKey,"r"-- open the Run panel
+	WaitFor 10, "Icon_RunCommand"
+	TypeText "Chrome"
+	TypeText enterKey -- enter the name of the app to run and press return
+	WaitFor 20, Image:"ChromeNavBtns", SearchRectangle:TargetRectangle.ScreenPart("TopLeftQuadrant")
+	TypeText controlKey, "l" -- focus on address bar
+	wait 2
+	typeText mySite
+	TypeText enterKey
+end LaunchChrome
+
+
+to LaunchChromeLinux mySite
+	if connectioninfo().name contains "ChromeContainer"
+		WaitFor 30, text:"Workspace",SearchRectangle: TargetRectangle.ScreenPart("BottomLeftQuadrant")
+	else -- DAI Cloud SUT
+		WaitFor 60, text: "Script Launch", SearchRectangle: TargetRectangle.ScreenPart("Center")
+	end if
+	
+	Start using Omega13
+	typetext AltKey,F2 
+	//CaptureScreen (Name: "After called for Allplication Finder in LaunchChromeDAICloud")
+	if connectioninfo().name contains "ChromeContainer"
+		WaitFor 30, text:"Run",SearchRectangle:TargetRectangle.ScreenPart("Center")
+	else  -- DAI Cloud SUT
+		WaitFor 60, text: "Application Finder", SearchRectangle: TargetRectangle.ScreenPart("Center")
+	end if
+	
+	Stop using Omega13
+	
+	TypeText "google-chrome"
+	TypeText return
+	if ImageFound( text:"default browser",SearchRectangle:TargetRectangle.ScreenPart("Center"), waitfor: 5) -- this is the first time launch of Chrome popup
+		Click image:"ChromeOKBtn", waitFor:5,SearchRectangle:TargetRectangle.ScreenPart("Center")
+	end if
+	
+	WaitFor 30, {ImageName: "ChromeNavBtns", SearchRectangle: TargetRectangle.ScreenPart("TopLeftQuadrant")}
+	TypeText controlKey, "l" -- Control L
+	typeText mySite
+	typetext return
+	
+	if ImageFound( text:"Know your location",SearchRectangle:TargetRectangle.ScreenPart("TopLeftQuadrant"), waitfor: 5) -- Asking for location
+		Click text:"Allow", waitFor:5,SearchRectangle:TargetRectangle.ScreenPart("TopLeftQuadrant")
+	end if
+	
+	typeText Altkey, Space
+	Click Text:"Maximize"
+	typeText Escape
+end LaunchChromeLinux
+
+to QuitChromeLinux
+	Repeat at least once while ImageFound(ImageName:"ChromeMinMaxCloseBtns", SearchRectangle: [1348,0,1919,75], WaitFor: 3)
+		TypeText controlKey, "w" -- quit Chrome
+		if ImageFound(text:"Application Finder", SearchRectangle: [495,243,1427,924], waitfor: 3)
+			Click text:"Close", waitFor:3
+		end if
+	End Repeat
+	if ImageFound(text:"Application Finder", SearchRectangle: [495,243,1427,924], waitfor: 3)
+		Click text:"Close", waitFor:3
+	End if
+	
+	-- WaitFor 20, text:"Script Launch", SearchRectangle: [495,243,1427,924]
+	
+end QuitChromeLinux
+
+
+to BrowserSelection myBrowser -- to test Param passing
+	if myBrowser contains "Linux"
+		log "Fast, secure and stylishly simple, the Ubuntu operating system is used by 50 million people worldwide every day"
+		put 2.5 into BrowserVersion
+	else 
+		log "Windows is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft."
+		put 11 into BrowserVersion
+	end if
+	return BrowserVersion
+end BrowserSelection

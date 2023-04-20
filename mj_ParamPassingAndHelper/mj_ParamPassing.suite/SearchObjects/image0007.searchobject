@@ -1,0 +1,42 @@
+{
+  "lastmodifieddate" : 1657299991.4814081,
+  "ocrcapturestring" : "Music",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        55,
+        107,
+        59,
+        28
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[11,21]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "deleted" : true,
+      "capturedocrtext" : "Music",
+      "name" : "image0007.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1657299289.6028271,
+  "lastfoundlocation" : [
+    55,
+    107,
+    59,
+    28
+  ],
+  "originalcapturelocation" : [
+    55,
+    107,
+    59,
+    28
+  ],
+  "lastfounddate" : 1657299857.2052231,
+  "name" : "image0007"
+}

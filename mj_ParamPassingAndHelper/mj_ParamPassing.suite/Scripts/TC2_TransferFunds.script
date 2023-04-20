@@ -1,0 +1,10 @@
+﻿// TransferMoney FromAccount, ToAccount, TransferAmount, Action
+// TransferTransaction.TransferMoney "Checking","Savings", 25, "Transfer"
+log my name
+log the params 
+put param(1) into FromAccount
+put param(2)  into ToAccount
+put param(3) into TransferAmount
+put param(4) into Action
+
+TransferTransaction.TransferMoney FromAccount, ToAccount, TransferAmount, Action

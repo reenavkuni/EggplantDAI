@@ -1,0 +1,17 @@
+﻿log the params 
+log param(1) 
+log param(2) 
+put Browser.BrowserSelection(param(2)) into myBrowserVersion -- "Linux" or "Windows"
+log myBrowserVersion
+
+if param(1) is less than 5
+	put "A little pop:" && param(1) into SumTotal
+else
+	put "Lots and lots of "&& param(1) into SumTotal
+end if
+
+if myBrowserVersion is less than 20
+	put SumTotal &&"tested on Browser:" && myBrowserVersion into finalAnswer
+end if
+log finalAnswer
+return finalAnswer & "!"

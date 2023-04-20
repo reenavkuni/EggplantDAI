@@ -1,0 +1,20 @@
+﻿{
+    CaptureDate = "2021-10-01 19:02:15 +0000";
+    CaptureHost = "YML_Docker_Chrome";
+    CaptureScreenSize = (
+        "1360",
+        "1020");
+    HasAlpha = 1;
+    HotSpotX = 44;
+    HotSpotY = 13;
+    ImageDescription = <>;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 941;
+    OriginalLocationY = 30;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "ChromeMinMaxCloseBtns_Linux/ChromeMinMaxCloseBtns_Linux3";
+    tags = ();
+}

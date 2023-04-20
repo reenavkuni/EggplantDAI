@@ -1,0 +1,42 @@
+{
+  "lastmodifieddate" : 1657299991.325352,
+  "ocrcapturestring" : "((►>) RADIO",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        213,
+        435,
+        138,
+        38
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[73,17]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "deleted" : true,
+      "capturedocrtext" : "((►>) RADIO",
+      "name" : "image0001.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1657299285.2566972,
+  "lastfoundlocation" : [
+    213,
+    435,
+    138,
+    38
+  ],
+  "originalcapturelocation" : [
+    213,
+    435,
+    138,
+    38
+  ],
+  "lastfounddate" : 1657299867.4206018,
+  "name" : "image0001"
+}

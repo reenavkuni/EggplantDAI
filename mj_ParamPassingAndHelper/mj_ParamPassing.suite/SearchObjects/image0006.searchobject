@@ -1,0 +1,33 @@
+{
+  "originalcapturelocation" : [
+    352,
+    112,
+    70,
+    30
+  ],
+  "createddate" : 1657299288.95278,
+  "lastmodifieddate" : 1657299991.4590521,
+  "name" : "image0006",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        352,
+        112,
+        70,
+        30
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[35,15]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "deleted" : true,
+      "name" : "image0006.png",
+      "type" : 1
+    }
+  ]
+}

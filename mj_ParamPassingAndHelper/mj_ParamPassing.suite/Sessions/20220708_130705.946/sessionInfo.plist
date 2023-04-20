@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[16, 14, 76, 37], elementName:"Home", eventNum:-1, folderPath:"", imageName:"Home", itemEvent:"TurboListItemEvent_CaptureImage", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Image", OCRText:"Home", screenShotFile:"Screen0002.png", searchType:"Smoothed for Text", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[110, 10, 183, 37], elementName:"UNKNOWN", eventNum:-1, folderPath:"", imageName:"", itemEvent:"TurboListItemEvent_CaptureImage", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Image", screenShotFile:"Screen0002.png", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[216, 10, 285, 37], elementName:"UNKNOWN", eventNum:-1, folderPath:"", imageName:"", itemEvent:"TurboListItemEvent_CaptureImage", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Image", screenShotFile:"Screen0002.png", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[316, 13, 341, 38], elementName:"UNKNOWN", eventNum:-1, folderPath:"", imageName:"", itemEvent:"TurboListItemEvent_CaptureImage", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Image", screenShotFile:"Screen0002.png", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>2207012146</integer>
+	<key>sessionType</key>
+	<string>autoscanSession</string>
+	<key>sessionUsesDOMObjects</key>
+	<false/>
+</dict>
+</plist>

@@ -1,0 +1,42 @@
+{
+  "lastmodifieddate" : 1657299991.3852301,
+  "ocrcapturestring" : "SIGN IN",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        946,
+        105,
+        83,
+        34
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[43,21]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "deleted" : true,
+      "capturedocrtext" : "SIGN IN",
+      "name" : "image0003.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1657299286.3314371,
+  "lastfoundlocation" : [
+    946,
+    105,
+    83,
+    34
+  ],
+  "originalcapturelocation" : [
+    946,
+    105,
+    83,
+    34
+  ],
+  "lastfounddate" : 1657299861.468919,
+  "name" : "image0003"
+}

@@ -1,0 +1,42 @@
+{
+  "lastmodifieddate" : 1657299991.4364939,
+  "ocrcapturestring" : "Q.",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        668,
+        109,
+        25,
+        25
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Precise to Pixel",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_1",
+        "HotSpot" : "[8,17]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "deleted" : true,
+      "capturedocrtext" : "Q.",
+      "name" : "image0005.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1657299287.407305,
+  "lastfoundlocation" : [
+    668,
+    109,
+    25,
+    25
+  ],
+  "originalcapturelocation" : [
+    668,
+    109,
+    25,
+    25
+  ],
+  "lastfounddate" : 1657299858.621474,
+  "name" : "image0005"
+}

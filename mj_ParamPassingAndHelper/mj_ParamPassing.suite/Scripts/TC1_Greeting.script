@@ -1,0 +1,29 @@
+﻿log my name
+//log param
+//put param into GreetingName
+
+//put "Dolly" into GreetingName
+//put "R2D2" into GreetingName
+BeginTestCase "TC1_Greeting"
+
+put param(1) into LocalGreeting
+generateGreeting LocalGreeting
+
+EndTestCase "TC1_Greeting"
+
+
+
+to generateGreeting  LocalGreeting
+	log LocalGreeting
+	if LocalGreeting contains "Dolly"
+		put "Hey there" && LocalGreeting into greeting
+		LogSuccess "Well, Hello Dolly!"
+		
+	else
+		put "Nice to meet you"&& LocalGreeting into greeting
+		LogWarning "Note that Dolly was not found"
+		
+	end if
+	log greeting
+	return greeting & "!"
+end generateGreeting

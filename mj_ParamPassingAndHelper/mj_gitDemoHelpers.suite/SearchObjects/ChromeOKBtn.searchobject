@@ -1,0 +1,47 @@
+{
+  "lastmodifieddate" : 1656707074.529321,
+  "ocrcapturestring" : "OK",
+  "testlocationdata" : [
+    {
+      "name" : "ChromeOKBtn\/ChromeOKBtn.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "ChromeContainer",
+      "connectionportnum" : 5901,
+      "capturedocrtext" : "OK",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[28,12]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "192.168.1.72",
+      "capturerect" : [
+        846,
+        545,
+        56,
+        25
+      ]
+    }
+  ],
+  "createddate" : 1645643651.5448279,
+  "lastfoundlocation" : [
+    846,
+    545,
+    56,
+    25
+  ],
+  "originalcapturelocation" : [
+    846,
+    545,
+    56,
+    25
+  ],
+  "lastfounddate" : 1663163656.0588,
+  "name" : "ChromeOKBtn"
+}

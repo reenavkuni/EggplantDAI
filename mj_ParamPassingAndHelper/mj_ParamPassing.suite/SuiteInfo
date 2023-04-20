@@ -1,0 +1,22 @@
+﻿{
+    EPVersionNumber = 202304170559;
+    Schedules =     (
+                {
+            ChangeCount = 0;
+            Name = "Schedule 1";
+            Path = "~~schedule~~Schedule 1";
+            Schedule =             (
+            );
+        }
+    );
+    ScriptMetaData =     {
+    };
+    SuiteEncodedTextKey = "UhZX>%\"$\\ID@d=!m";
+    helpedSuitesInfo =     (
+    );
+    helperSuitesInfo =     (
+                {
+            filePath = "/Users/johnson3/Documents/EggplantSuites/DAI/mj_gitDemoHelpers.suite";
+        }
+    );
+}

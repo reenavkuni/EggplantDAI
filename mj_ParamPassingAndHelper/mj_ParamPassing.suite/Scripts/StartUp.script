@@ -1,0 +1,8 @@
+﻿log my name
+log param
+
+put param(1) into mylocalResourceFile
+
+ExternalFile.loadData mylocalResourceFile
+
+log "data loaded"

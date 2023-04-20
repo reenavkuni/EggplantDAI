@@ -1,0 +1,15 @@
+﻿to TransferMoney FromAccount, ToAccount, TransferAmount, Action
+	log "From account: " & FromAccount
+	log "To Account: "& ToAccount
+	log "Transfer Amount: " & TransferAmount
+	if Action contains "Transfer"
+		log "we are trying to transfer"
+	else
+		log "we are trying to cancel"
+	end if
+	if TransferAmount is greater than 5
+		log "Look at you money bags!"
+	else
+		log "penny saved is a penny not transferred"
+	end if	
+end TransferMoney

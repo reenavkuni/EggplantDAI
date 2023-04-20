@@ -1,0 +1,35 @@
+{
+  "ocrcapturestring" : "Library",
+  "originalcapturelocation" : [
+    569,
+    112,
+    64,
+    23
+  ],
+  "createddate" : 1657299287.8566818,
+  "lastmodifieddate" : 1657299991.5024641,
+  "name" : "Library",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        569,
+        112,
+        64,
+        23
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_16",
+        "HotSpot" : "[29,15]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "deleted" : true,
+      "capturedocrtext" : "Library",
+      "name" : "Library.png",
+      "type" : 1
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+﻿//put "SourceOfTruth.xlsx" into ResourceFile
+//put "TableOfData.xlsx" into ResourceFile
+//loadData ResourceFile
+
+
+to loadData ResourceFile
+	Log "Loading Excel file:" && ResourceFile
+	Set myExcelDB to (type: "excel", file: ResourcePath(ResourceFile))
+	
+	Set global myLoop to ()
+	put the records of myExcelDB into global LoopValues
+	put the number of records of myExcelDB into global recordcount
+	
+	//put line 1 of file resourcePath("SalaryList.txt") as a property list into Salary
+	repeat with each item global LoopValue of  global LoopValues 
+		push global LoopValue into global myLoop
+		put global LoopValue.username
+	end repeat
+end loadData

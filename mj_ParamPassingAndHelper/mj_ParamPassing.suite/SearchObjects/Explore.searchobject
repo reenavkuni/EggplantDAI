@@ -1,0 +1,33 @@
+{
+  "originalcapturelocation" : [
+    462,
+    112,
+    68,
+    23
+  ],
+  "createddate" : 1657299288.3240418,
+  "lastmodifieddate" : 1657299991.2954822,
+  "name" : "Explore",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        462,
+        112,
+        68,
+        23
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_56",
+        "HotSpot" : "[35,9]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "deleted" : true,
+      "name" : "Explore.png",
+      "type" : 1
+    }
+  ]
+}

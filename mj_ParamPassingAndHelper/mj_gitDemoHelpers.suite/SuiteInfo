@@ -1,0 +1,57 @@
+﻿{
+    EPVersionNumber = 202304170559;
+    Schedules =     (
+    );
+    ScriptMetaData =     {
+    };
+    SuiteEncodedTextKey = "gU3nnhJuC@h-NC`F";
+    helpedSuitesInfo =     (
+                {
+            filePath = "mj_BankingApp.suite";
+        },
+                {
+            filePath = "mj_EvolvingSuccessOfModel.suite";
+        },
+                {
+            filePath = "mj_ThreeSUTModel.suite";
+        },
+                {
+            filePath = "AutoHealingDemoLinux.suite";
+        },
+                {
+            filePath = "mj_ParamPassing.suite";
+        },
+                {
+            filePath = "mj_TutorialSUT.suite";
+        },
+                {
+            filePath = "CompareScreenDemo.suite";
+        },
+                {
+            filePath = "mj_TutorialSUT2.suite";
+        },
+                {
+            filePath = "nop.suite";
+        },
+                {
+            filePath = "nop.suite";
+        },
+                {
+            filePath = "C://Users//johnson3//Documents//EggplantScripts//.run//mj_SauceLabDemo.suite";
+        },
+                {
+            filePath = "/Users/johnson3/Documents/EggplantSuites/22.4 Demo Citrix.suite";
+        },
+                {
+            filePath = "22.5 Demo Mobile Device Connections.suite";
+        },
+                {
+            filePath = "DAI/etude.suite";
+        },
+                {
+            filePath = "DAI/mj_ParamPassing.suite";
+        }
+    );
+    helperSuitesInfo =     (
+    );
+}

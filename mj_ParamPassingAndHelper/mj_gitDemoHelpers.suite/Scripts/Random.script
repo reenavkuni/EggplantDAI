@@ -1,0 +1,57 @@
+﻿to handle RandomError
+	put Random(1,5) into RandomTryError
+	//log "Random Try Error is set to: " & RandomTryError
+	if RandomTryError...
+		... is 3 then
+			LogSuccess "Random Error was: " & RandomTryError & " Success."
+		... is 4 then
+			LogWarning "Random Error was: " & RandomTryError & " Warning."
+		... is 5 then
+			LogError "Random Error was: " & RandomTryError & " Error."
+		... else
+			Log "Random Error was: " & RandomTryError & " No error reported."
+	end if
+	return RandomTryError
+end RandomError
+
+to handle PickASeason
+	put random(1, 4) into RandomSeason
+	//put RandomSeason
+	if RandomSeason ...
+		... = 1 then 
+			put "Spring"  into Season
+		... = 2 then
+			put "Summer" into Season
+		... = 3 then 
+			put "Fall" into Season
+		... = 4 then
+			put "Winter" into Season
+		... else
+			put "Construction" into Season
+	end if
+	return Season
+end PickASeason
+
+to handle RandomWait
+
+	put random(1, 10) into xTime
+	log "Waiting for " & xTime
+	wait xTime
+	log "Wait complete"
+	return xTime
+	
+end RandomWait
+
+to handle DiceRoll
+	put Random(1,20) into RandomTry
+	log "RandomTry is set to: " & RandomTry
+	If RandomTry...
+		... is 19  then
+			LogWarning "You rolled: " & RandomTry &" . The engine is overheating."
+		... is 20 then
+			LogError "You rolled: " & RandomTry &" . The wheels on the bus fell off."
+		... else
+			LogSuccess "You rolled: " & RandomTry &" .  What a great road trip. #Joy."
+	End If
+	return RandomTry
+end DiceRoll

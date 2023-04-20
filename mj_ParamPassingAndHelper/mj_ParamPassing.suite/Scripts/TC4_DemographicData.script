@@ -1,0 +1,38 @@
+﻿log my name
+
+put param(1) into mylocalResourceFile
+ExternalFile.loadData mylocalResourceFile
+
+BeginTestCase "TC4_DemographicData"
+
+//put random(1, Global recordcount) into myLocalUser
+put param(2) into myLocalUser
+PutUserName myLocalUser
+PutPassword myLocalUser
+putMailingAddress myLocalUser
+
+EndTestCase "TC4_DemographicData"
+
+
+to handle PutUserName var
+	//put var
+	log  "The user name is:"&& UserName of item var of Global myLoop
+end PutUserName
+
+to handle PutPassword var
+	//put var
+	//TypeHiddenText Password of item var of Global myLoop -- if there is a SUT connection
+	log  "The password in cleartext is:"&& Password of item var of Global myLoop
+end PutPassword
+
+to handle PutMailingAddress var
+	//put var
+	put items [1,4,7] of item var of Global myLoop into localCity
+	put city of item var of Global myLoop into localCity
+	put ","&& state of item var of Global myLoop after localCity
+	put ""&& zip of item var of Global myLoop after localCity
+	log  "The mailing address is: "
+	log UserName of item var of Global myLoop
+	log  Street of item var of Global myLoop
+	log localCity
+end PutMailingAddress

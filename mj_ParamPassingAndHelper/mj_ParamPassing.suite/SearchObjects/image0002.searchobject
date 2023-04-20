@@ -1,0 +1,42 @@
+{
+  "lastmodifieddate" : 1657299991.3553329,
+  "ocrcapturestring" : "SUBSCRIBE 55.6K",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        357,
+        435,
+        162,
+        38
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[77,25]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "deleted" : true,
+      "capturedocrtext" : "SUBSCRIBE 55.6K",
+      "name" : "image0002.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1657299285.8528399,
+  "lastfoundlocation" : [
+    357,
+    435,
+    162,
+    38
+  ],
+  "originalcapturelocation" : [
+    357,
+    435,
+    162,
+    38
+  ],
+  "lastfounddate" : 1657299869.0197749,
+  "name" : "image0002"
+}
