@@ -1,0 +1,4 @@
+﻿2023-04-11 09:58:32.831 -0600	START		Running Untitled2.script
+2023-04-11 09:58:32.949 -0600	Log		windows git	9	on_untitled2	Untitled2.script
+2023-04-11 09:58:32.996 -0600	EndTestCase		(Duration:"0.165", Errors:"0", Exceptions:"0", StartTime:"2023-04-11 09:58:32 -0600", Successes:"1", TestCase:"Untitled2.script", Warnings:"0")
+2023-04-11 09:58:33.168 -0600	SUCCESS		Execution Time 0:00:00 Untitled2.script
