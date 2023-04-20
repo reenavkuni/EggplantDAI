@@ -50,6 +50,9 @@
         },
                 {
             filePath = "DAI/mj_ParamPassing.suite";
+        },
+                {
+            filePath = "EggplantDAI/mj_ParamPassing.suite";
         }
     );
     helperSuitesInfo =     (

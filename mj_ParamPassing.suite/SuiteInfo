@@ -16,7 +16,7 @@
     );
     helperSuitesInfo =     (
                 {
-            filePath = "/Users/johnson3/Documents/EggplantSuites/DAI/mj_gitDemoHelpers.suite";
+            filePath = "/Users/reenkuni/Documents/EggplantDAI/mj_gitDemoHelpers.suite";
         }
     );
 }
